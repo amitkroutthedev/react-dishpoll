@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import PropTypes from "prop-types";
 import {
   AppBar,
   Box,
@@ -46,5 +47,8 @@ const Navbar = ({ value, handleChange }) => {
     </Box>
   );
 };
-
+Navbar.propTypes = {
+  value: PropTypes.number.isRequired,
+  handleChange: PropTypes.func.isRequired,
+};
 export default Navbar;

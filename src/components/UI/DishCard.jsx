@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import PropTypes from "prop-types";
 import {
   Card,
   CardHeader,
@@ -89,6 +90,12 @@ const DishCard = ({ dish, id, buttonFor = "tab1" }) => {
       </Card>
     </Grid>
   );
+};
+
+DishCard.propTypes = {
+  dish: PropTypes.object.isRequired,
+  id: PropTypes.number.isRequired,
+  buttonFor: PropTypes.string.isRequired,
 };
 
 export default DishCard;
