@@ -1,5 +1,5 @@
 
-# react-dishpoll-syook
+# react-dishpoll
 
 A web application to rank dishes
 
