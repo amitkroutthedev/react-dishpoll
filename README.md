@@ -1,7 +1,7 @@
 
 # react-dishpoll-syook
 
-Syook problem assignment
+A web application to rank dishes
 
 Link - https://react-dishpoll-syook-ccbh.vercel.app/
 
