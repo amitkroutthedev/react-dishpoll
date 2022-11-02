@@ -23,7 +23,7 @@ const LoginPage = () => {
             <TextField
               type="text"
               id="input-username"
-              label="user name"
+              label="john"
               variant="standard"
               value={inputUserName}
               onChange={(e) => {
@@ -39,7 +39,7 @@ const LoginPage = () => {
             <TextField
               type="password"
               id="input-password"
-              label="password"
+              label="john123"
               variant="standard"
               value={inputUserPassword}
               onChange={(e) => {
